@@ -1,6 +1,6 @@
-# [ITCringeBot](https://vk.com/itcringe)
+# [ITCringeParse](https://vk.com/itcringe)
 
-!["Made with Python"][1] [![][2]][3]
+[!["Made with Python"][1]](https://www.python.org/) [![][2]][3]
 
 [1]: https://img.shields.io/badge/Made%20with-Python-%23FFD242?logo=python&logoColor=white
 [2]: https://img.shields.io/badge/python-3.9.6-blue.svg
