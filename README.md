@@ -10,7 +10,7 @@
 
 ## Installation
 ```bash
-git clone https://github.com/Moonquit/itcringebot.git
+git clone https://github.com/Moonquit/itcringeparse.git
 ```
 
 
