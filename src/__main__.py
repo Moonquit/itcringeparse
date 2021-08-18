@@ -27,7 +27,10 @@ def run_polling(lp: VkBotLongPoll):
                         if attach['type'] == 'photo':
                             attachments.append(attach['photo']['sizes'][-1]['url'])
 
-                create_tg_post(attachments, event.object['text'])
+                if attachments:
+                    create_tg_post(attachments, event.object['text'])
+                elif (event.object['text'] and not 'attachments' in event.object):
+                    create_tg_post([], event.object['text'])
         except Exception as err:
             logging.error(traceback.format_exc())
 
